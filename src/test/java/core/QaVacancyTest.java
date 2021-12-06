@@ -17,6 +17,7 @@ public class QaVacancyTest {
     public AboutPage aboutPage = new AboutPage(baseFunc);
     public JobsPage jobsPage = new JobsPage(baseFunc);
     public VacanciesPage vacanciesPage = new VacanciesPage(baseFunc);
+
     @Test
     public void aqVacancyCheck() throws IOException {
         LOGGER.info("Open if.lv");

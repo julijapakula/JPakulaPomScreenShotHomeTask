@@ -44,10 +44,10 @@ public class BaseFunc {
     public void takeScreenShot() throws IOException {
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-            File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(scrFile, new File("C:/failure_screenshots/" + formater.format(calendar.getTime()) + ".png"));
-            System.out.println("Failure screenshot was taken at " + " " + formater.format(calendar.getTime()));
-        }
+        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile, new File("C:/failure_screenshots/" + formater.format(calendar.getTime()) + ".png"));
+        System.out.println("Failure screenshot was taken at " + " " + formater.format(calendar.getTime()));
+    }
 
     public void quitBrowser() {
         driver.quit();

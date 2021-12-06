@@ -11,6 +11,7 @@ public class AboutPage {
     public AboutPage(BaseFunc baseFunc) {
         this.baseFunc = baseFunc;
     }
+
     public void goToAbout() {
         baseFunc.waitClick(ABOUT);
     }
