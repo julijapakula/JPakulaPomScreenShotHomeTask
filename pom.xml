@@ -35,11 +35,6 @@
             <version>2.6</version>
         </dependency>
         <dependency>
-            <groupId>ru.yandex.qatools.ashot</groupId>
-            <artifactId>ashot</artifactId>
-            <version>1.5.4</version>
-        </dependency>
-        <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.9.10</version>
